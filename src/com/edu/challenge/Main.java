@@ -21,7 +21,7 @@ public class Main {
 
         System.out.println("Matches");
         var matches = queryList
-                .getMatches("PercentComplete", "100")
+                .getMatches("PercentComplete", "120")
                 .getMatches("Course", "Python");
 
         matches.sort(new LPAStudentComparator());
